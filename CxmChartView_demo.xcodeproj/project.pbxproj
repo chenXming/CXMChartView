@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FB3F2781EDFF20500501936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3F2771EDFF20500501936 /* main.m */; };
+		5FB3F27B1EDFF20500501936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3F27A1EDFF20500501936 /* AppDelegate.m */; };
+		5FB3F27E1EDFF20500501936 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3F27D1EDFF20500501936 /* ViewController.m */; };
+		5FB3F2811EDFF20500501936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB3F27F1EDFF20500501936 /* Main.storyboard */; };
+		5FB3F2831EDFF20500501936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB3F2821EDFF20500501936 /* Assets.xcassets */; };
+		5FB3F2861EDFF20500501936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB3F2841EDFF20500501936 /* LaunchScreen.storyboard */; };
+		5FB3F2911EDFF20500501936 /* CxmChartView_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3F2901EDFF20500501936 /* CxmChartView_demoTests.m */; };
+		5FB3F29C1EDFF20500501936 /* CxmChartView_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3F29B1EDFF20500501936 /* CxmChartView_demoUITests.m */; };
+		5FB3F2AE1EDFF23400501936 /* BrokenChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3F2AB1EDFF23400501936 /* BrokenChartView.m */; };
+		5FB3F2AF1EDFF23400501936 /* SmoothChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3F2AD1EDFF23400501936 /* SmoothChartView.m */; };
+		5FB3F2B21EDFF28A00501936 /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3F2B11EDFF28A00501936 /* UIBezierPath+curved.m */; };
+		5FB3F2B61EDFF30500501936 /* UIColor+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3F2B51EDFF30500501936 /* UIColor+Extra.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FB3F28D1EDFF20500501936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FB3F26B1EDFF20500501936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB3F2721EDFF20500501936;
+			remoteInfo = CxmChartView_demo;
+		};
+		5FB3F2981EDFF20500501936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FB3F26B1EDFF20500501936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB3F2721EDFF20500501936;
+			remoteInfo = CxmChartView_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FB3F2731EDFF20500501936 /* CxmChartView_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CxmChartView_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB3F2771EDFF20500501936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FB3F2791EDFF20500501936 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FB3F27A1EDFF20500501936 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FB3F27C1EDFF20500501936 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FB3F27D1EDFF20500501936 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FB3F2801EDFF20500501936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FB3F2821EDFF20500501936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FB3F2851EDFF20500501936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FB3F2871EDFF20500501936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB3F28C1EDFF20500501936 /* CxmChartView_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CxmChartView_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB3F2901EDFF20500501936 /* CxmChartView_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CxmChartView_demoTests.m; sourceTree = "<group>"; };
+		5FB3F2921EDFF20500501936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB3F2971EDFF20500501936 /* CxmChartView_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CxmChartView_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB3F29B1EDFF20500501936 /* CxmChartView_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CxmChartView_demoUITests.m; sourceTree = "<group>"; };
+		5FB3F29D1EDFF20500501936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB3F2AA1EDFF23400501936 /* BrokenChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrokenChartView.h; sourceTree = "<group>"; };
+		5FB3F2AB1EDFF23400501936 /* BrokenChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrokenChartView.m; sourceTree = "<group>"; };
+		5FB3F2AC1EDFF23400501936 /* SmoothChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothChartView.h; sourceTree = "<group>"; };
+		5FB3F2AD1EDFF23400501936 /* SmoothChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothChartView.m; sourceTree = "<group>"; };
+		5FB3F2B01EDFF28A00501936 /* UIBezierPath+curved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+curved.h"; sourceTree = "<group>"; };
+		5FB3F2B11EDFF28A00501936 /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
+		5FB3F2B41EDFF30500501936 /* UIColor+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extra.h"; sourceTree = "<group>"; };
+		5FB3F2B51EDFF30500501936 /* UIColor+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extra.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB3F2701EDFF20500501936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB3F2891EDFF20500501936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB3F2941EDFF20500501936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FB3F26A1EDFF20500501936 = {
+			isa = PBXGroup;
+			children = (
+				5FB3F2751EDFF20500501936 /* CxmChartView_demo */,
+				5FB3F28F1EDFF20500501936 /* CxmChartView_demoTests */,
+				5FB3F29A1EDFF20500501936 /* CxmChartView_demoUITests */,
+				5FB3F2741EDFF20500501936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FB3F2741EDFF20500501936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3F2731EDFF20500501936 /* CxmChartView_demo.app */,
+				5FB3F28C1EDFF20500501936 /* CxmChartView_demoTests.xctest */,
+				5FB3F2971EDFF20500501936 /* CxmChartView_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FB3F2751EDFF20500501936 /* CxmChartView_demo */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3F2791EDFF20500501936 /* AppDelegate.h */,
+				5FB3F27A1EDFF20500501936 /* AppDelegate.m */,
+				5FB3F27C1EDFF20500501936 /* ViewController.h */,
+				5FB3F27D1EDFF20500501936 /* ViewController.m */,
+				5FB3F2B31EDFF30500501936 /* UIColor */,
+				5FB3F2A91EDFF23400501936 /* CXMChartView */,
+				5FB3F27F1EDFF20500501936 /* Main.storyboard */,
+				5FB3F2821EDFF20500501936 /* Assets.xcassets */,
+				5FB3F2841EDFF20500501936 /* LaunchScreen.storyboard */,
+				5FB3F2871EDFF20500501936 /* Info.plist */,
+				5FB3F2761EDFF20500501936 /* Supporting Files */,
+			);
+			path = CxmChartView_demo;
+			sourceTree = "<group>";
+		};
+		5FB3F2761EDFF20500501936 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3F2771EDFF20500501936 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB3F28F1EDFF20500501936 /* CxmChartView_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3F2901EDFF20500501936 /* CxmChartView_demoTests.m */,
+				5FB3F2921EDFF20500501936 /* Info.plist */,
+			);
+			path = CxmChartView_demoTests;
+			sourceTree = "<group>";
+		};
+		5FB3F29A1EDFF20500501936 /* CxmChartView_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3F29B1EDFF20500501936 /* CxmChartView_demoUITests.m */,
+				5FB3F29D1EDFF20500501936 /* Info.plist */,
+			);
+			path = CxmChartView_demoUITests;
+			sourceTree = "<group>";
+		};
+		5FB3F2A91EDFF23400501936 /* CXMChartView */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3F2AA1EDFF23400501936 /* BrokenChartView.h */,
+				5FB3F2AB1EDFF23400501936 /* BrokenChartView.m */,
+				5FB3F2AC1EDFF23400501936 /* SmoothChartView.h */,
+				5FB3F2AD1EDFF23400501936 /* SmoothChartView.m */,
+				5FB3F2B01EDFF28A00501936 /* UIBezierPath+curved.h */,
+				5FB3F2B11EDFF28A00501936 /* UIBezierPath+curved.m */,
+			);
+			path = CXMChartView;
+			sourceTree = "<group>";
+		};
+		5FB3F2B31EDFF30500501936 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3F2B41EDFF30500501936 /* UIColor+Extra.h */,
+				5FB3F2B51EDFF30500501936 /* UIColor+Extra.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FB3F2721EDFF20500501936 /* CxmChartView_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB3F2A01EDFF20500501936 /* Build configuration list for PBXNativeTarget "CxmChartView_demo" */;
+			buildPhases = (
+				5FB3F26F1EDFF20500501936 /* Sources */,
+				5FB3F2701EDFF20500501936 /* Frameworks */,
+				5FB3F2711EDFF20500501936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CxmChartView_demo;
+			productName = CxmChartView_demo;
+			productReference = 5FB3F2731EDFF20500501936 /* CxmChartView_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FB3F28B1EDFF20500501936 /* CxmChartView_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB3F2A31EDFF20500501936 /* Build configuration list for PBXNativeTarget "CxmChartView_demoTests" */;
+			buildPhases = (
+				5FB3F2881EDFF20500501936 /* Sources */,
+				5FB3F2891EDFF20500501936 /* Frameworks */,
+				5FB3F28A1EDFF20500501936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB3F28E1EDFF20500501936 /* PBXTargetDependency */,
+			);
+			name = CxmChartView_demoTests;
+			productName = CxmChartView_demoTests;
+			productReference = 5FB3F28C1EDFF20500501936 /* CxmChartView_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FB3F2961EDFF20500501936 /* CxmChartView_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB3F2A61EDFF20500501936 /* Build configuration list for PBXNativeTarget "CxmChartView_demoUITests" */;
+			buildPhases = (
+				5FB3F2931EDFF20500501936 /* Sources */,
+				5FB3F2941EDFF20500501936 /* Frameworks */,
+				5FB3F2951EDFF20500501936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB3F2991EDFF20500501936 /* PBXTargetDependency */,
+			);
+			name = CxmChartView_demoUITests;
+			productName = CxmChartView_demoUITests;
+			productReference = 5FB3F2971EDFF20500501936 /* CxmChartView_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FB3F26B1EDFF20500501936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈小明";
+				TargetAttributes = {
+					5FB3F2721EDFF20500501936 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H588V6S763;
+						ProvisioningStyle = Automatic;
+					};
+					5FB3F28B1EDFF20500501936 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H588V6S763;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FB3F2721EDFF20500501936;
+					};
+					5FB3F2961EDFF20500501936 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H588V6S763;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FB3F2721EDFF20500501936;
+					};
+				};
+			};
+			buildConfigurationList = 5FB3F26E1EDFF20500501936 /* Build configuration list for PBXProject "CxmChartView_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FB3F26A1EDFF20500501936;
+			productRefGroup = 5FB3F2741EDFF20500501936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FB3F2721EDFF20500501936 /* CxmChartView_demo */,
+				5FB3F28B1EDFF20500501936 /* CxmChartView_demoTests */,
+				5FB3F2961EDFF20500501936 /* CxmChartView_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FB3F2711EDFF20500501936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB3F2861EDFF20500501936 /* LaunchScreen.storyboard in Resources */,
+				5FB3F2831EDFF20500501936 /* Assets.xcassets in Resources */,
+				5FB3F2811EDFF20500501936 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB3F28A1EDFF20500501936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB3F2951EDFF20500501936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FB3F26F1EDFF20500501936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB3F27E1EDFF20500501936 /* ViewController.m in Sources */,
+				5FB3F2B61EDFF30500501936 /* UIColor+Extra.m in Sources */,
+				5FB3F27B1EDFF20500501936 /* AppDelegate.m in Sources */,
+				5FB3F2B21EDFF28A00501936 /* UIBezierPath+curved.m in Sources */,
+				5FB3F2AE1EDFF23400501936 /* BrokenChartView.m in Sources */,
+				5FB3F2AF1EDFF23400501936 /* SmoothChartView.m in Sources */,
+				5FB3F2781EDFF20500501936 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB3F2881EDFF20500501936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB3F2911EDFF20500501936 /* CxmChartView_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB3F2931EDFF20500501936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB3F29C1EDFF20500501936 /* CxmChartView_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FB3F28E1EDFF20500501936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FB3F2721EDFF20500501936 /* CxmChartView_demo */;
+			targetProxy = 5FB3F28D1EDFF20500501936 /* PBXContainerItemProxy */;
+		};
+		5FB3F2991EDFF20500501936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FB3F2721EDFF20500501936 /* CxmChartView_demo */;
+			targetProxy = 5FB3F2981EDFF20500501936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FB3F27F1EDFF20500501936 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB3F2801EDFF20500501936 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FB3F2841EDFF20500501936 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB3F2851EDFF20500501936 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FB3F29E1EDFF20500501936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FB3F29F1EDFF20500501936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FB3F2A11EDFF20500501936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H588V6S763;
+				INFOPLIST_FILE = CxmChartView_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanshenglong.CxmChartView-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FB3F2A21EDFF20500501936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H588V6S763;
+				INFOPLIST_FILE = CxmChartView_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanshenglong.CxmChartView-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FB3F2A41EDFF20500501936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H588V6S763;
+				INFOPLIST_FILE = CxmChartView_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanshenglong.CxmChartView-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CxmChartView_demo.app/CxmChartView_demo";
+			};
+			name = Debug;
+		};
+		5FB3F2A51EDFF20500501936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H588V6S763;
+				INFOPLIST_FILE = CxmChartView_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanshenglong.CxmChartView-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CxmChartView_demo.app/CxmChartView_demo";
+			};
+			name = Release;
+		};
+		5FB3F2A71EDFF20500501936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H588V6S763;
+				INFOPLIST_FILE = CxmChartView_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanshenglong.CxmChartView-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CxmChartView_demo;
+			};
+			name = Debug;
+		};
+		5FB3F2A81EDFF20500501936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H588V6S763;
+				INFOPLIST_FILE = CxmChartView_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanshenglong.CxmChartView-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CxmChartView_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FB3F26E1EDFF20500501936 /* Build configuration list for PBXProject "CxmChartView_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB3F29E1EDFF20500501936 /* Debug */,
+				5FB3F29F1EDFF20500501936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB3F2A01EDFF20500501936 /* Build configuration list for PBXNativeTarget "CxmChartView_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB3F2A11EDFF20500501936 /* Debug */,
+				5FB3F2A21EDFF20500501936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FB3F2A31EDFF20500501936 /* Build configuration list for PBXNativeTarget "CxmChartView_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB3F2A41EDFF20500501936 /* Debug */,
+				5FB3F2A51EDFF20500501936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FB3F2A61EDFF20500501936 /* Build configuration list for PBXNativeTarget "CxmChartView_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB3F2A71EDFF20500501936 /* Debug */,
+				5FB3F2A81EDFF20500501936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FB3F26B1EDFF20500501936 /* Project object */;
+}
