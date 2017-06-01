@@ -9,4 +9,29 @@
 * 绘制渐变阴影
 最后得到效果是这样的
 
-![animiation.gif](http://upload-images.jianshu.io/upload_images/1977395-de6821625821ae3d.gif?imageMogr2/auto-orient/strip)
+![animiation.gif](http://upload-images.jianshu.io/upload_images/1977395-de6821625821ae3d.gif?imageMogr2/auto-orient/strip)<br>
+具体的使用方法：引入文件夹`CXMChartView`到工程,文件`SmoothChartView`是画平滑的曲线并带阴影的图，文件`BrokenChartView`是画折线图没有阴影的。
+```
+/*
+ * X 轴的刻度数字
+ */
+@property (nonatomic,strong)NSArray *arrX;
+
+/*
+ * Y 轴的刻度数字
+ */
+@property (nonatomic,strong)NSArray *arrY;
+
+/*
+ * 刷新数据 重新开始动画
+ */
+-(void)refreshChartAnmition;
+
+/* 根据数据源画图
+ *  pathX :横坐标数据
+ *
+ *  pathY :纵坐标数据源
+ * X 是横坐标需要变换的值
+ */
+-(void)drawSmoothViewWithArrayX:(NSArray*)pathX andArrayY:(NSArray*)pathY andScaleX:(float)X;
+```
