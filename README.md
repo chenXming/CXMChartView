@@ -7,7 +7,7 @@
 * 绘制折线
 * 变成平滑曲线
 * 绘制渐变阴影
-最后得到效果是这样的
+最后得到效果是这样婶儿的
 
 ![animiation.gif](http://upload-images.jianshu.io/upload_images/1977395-de6821625821ae3d.gif?imageMogr2/auto-orient/strip)<br>
 具体的使用方法：引入文件夹`CXMChartView`到工程,文件`SmoothChartView`是画平滑的曲线并带阴影的图，文件`BrokenChartView`是画双坐标没有阴影的折线图，可以根据自己的需要进行使用和修改。
@@ -35,5 +35,5 @@
  */
 -(void)drawSmoothViewWithArrayX:(NSArray*)pathX andArrayY:(NSArray*)pathY andScaleX:(float)X;
 ```
-demo的实现效果是这样的<br> ![](https://github.com/chenXming/CXMChartView/raw/master/animiationX.gif)  
+demo的实现效果是这样这样婶儿的<br> ![](https://github.com/chenXming/CXMChartView/raw/master/animiationX.gif)  
 
