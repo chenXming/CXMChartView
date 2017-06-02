@@ -35,3 +35,5 @@
  */
 -(void)drawSmoothViewWithArrayX:(NSArray*)pathX andArrayY:(NSArray*)pathY andScaleX:(float)X;
 ```
+demo的实现效果是这样的<br> ![](https://github.com/chenXming/CXMChartView/raw/master/animiationX.gif)  
+
