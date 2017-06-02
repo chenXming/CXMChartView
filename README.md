@@ -10,7 +10,7 @@
 最后得到效果是这样的
 
 ![animiation.gif](http://upload-images.jianshu.io/upload_images/1977395-de6821625821ae3d.gif?imageMogr2/auto-orient/strip)<br>
-具体的使用方法：引入文件夹`CXMChartView`到工程,文件`SmoothChartView`是画平滑的曲线并带阴影的图，文件`BrokenChartView`是画折线图没有阴影的。
+具体的使用方法：引入文件夹`CXMChartView`到工程,文件`SmoothChartView`是画平滑的曲线并带阴影的图，文件`BrokenChartView`是画双坐标没有阴影的折线图，可以根据自己的需要进行使用和修改。
 ```
 /*
  * X 轴的刻度数字
