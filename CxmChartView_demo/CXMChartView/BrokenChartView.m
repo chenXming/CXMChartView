@@ -30,11 +30,12 @@
 }
 
 @end
-#define  VIEW_WIDTH  self.frame.size.width
-#define  VIEW_HEIGHT self.frame.size.height
+#define  VIEW_WIDTH  self.frame.size.width //底图的宽度
+#define  VIEW_HEIGHT self.frame.size.height//底图的高度
 
-#define  LABLE_WIDTH  280
-#define  LABLE_HEIGHT 150
+#define  LABLE_WIDTH  280 //表的宽度
+#define  LABLE_HEIGHT 150 //表的高度
+
 @implementation BrokenChartView
 
 - (instancetype)initWithFrame:(CGRect)frame

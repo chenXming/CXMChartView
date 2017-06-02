@@ -29,7 +29,7 @@
  *  pathX :横坐标数据
  *
  *  pathY :纵坐标数据源
- * X 是横坐标需要变换的值
+ *  X:X轴需要切割的份数
  */
 -(void)drawSmoothViewWithArrayX:(NSArray*)pathX andArrayY:(NSArray*)pathY andScaleX:(float)X;
 

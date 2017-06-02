@@ -34,6 +34,7 @@
  *  pathX :横坐标数据
  *  纵坐标 右侧刻度基准
  *  pathY :纵坐标数据源
+ *  X:X轴需要切割的份数
  */
 -(void)drawRightChartViewWithArrayX:(NSArray*)pathX ArrayY:(NSArray*)pathY andScaleX:(float)X;
 
@@ -41,6 +42,7 @@
  *  pathX :横坐标数据
  *  纵坐标 左侧刻度基准
  *  pathY :纵坐标数据源
+ *  X : X轴需要切割的份数
  */
 -(void)drawLeftChartViewWithArrayX:(NSArray*)pathX ArrayY:(NSArray*)pathY andScaleX:(float)X;
 
